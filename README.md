@@ -28,9 +28,7 @@ Projekt powstał jako w pełni własna infrastruktura AI — od backendu, przez 
 
 | Generowanie obrazu na żądanie | Widoczny proces myślowy bota |
 |---|---|
-| ![Generowanie obrazu](./docs/screenshot-image-gen.png) | ![Proces myślowy](./docs/screenshot-thinking.png) |
-
-*(screenshoty w katalogu `docs/` — patrz sekcja niżej z propozycją grafik)*
+| ![Generowanie obrazu](./docs/1.png) | ![Proces myślowy](./docs/2.png) |
 
 ## 🏗️ Architektura
 
