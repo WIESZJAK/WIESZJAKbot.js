@@ -2,8 +2,7 @@
 
 > Samodzielnie zbudowany asystent AI z lokalnym modelem LLM, streamingiem odpowiedzi w czasie rzeczywistym, generowaniem obrazów i pełnym systemem kont użytkowników.
 
-<!-- Tu wstaw banner wygenerowany przez Ideogram 4 / Krea 2, np. output/banner.png -->
-<!-- ![WIESZJAKbot banner](./docs/banner.png) -->
+![WIESZJAKbot banner](./docs/banner.png)
 
 ![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-4.19-000000?logo=express&logoColor=white)
