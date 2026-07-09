@@ -28,9 +28,7 @@ Projekt powstał jako w pełni własna infrastruktura AI — od backendu, przez 
 
 | Generowanie obrazu na żądanie | Widoczny proces myślowy bota |
 |---|---|
-| ![Generowanie obrazu](./docs/screenshot-image-gen.png) | ![Proces myślowy](./docs/screenshot-thinking.png) |
-
-*(screenshoty w katalogu `docs/` — patrz sekcja niżej z propozycją grafik)*
+| ![Generowanie obrazu](./docs/1n.png) | ![Proces myślowy](./docs/2.png) |
 
 ## 🏗️ Architektura
 
@@ -101,14 +99,6 @@ flowchart LR
 - 🖼️ **Galeria obrazów** z lightboxem i nawigacją
 - 🛡️ **Panel administratora** — zarządzanie użytkownikami, podgląd logów rozmów, moderacja obrazów
 - 🔒 **Bezpieczeństwo** — ownership checks na każdym zasobie (użytkownik nie usunie cudzej wiadomości/wątku), parametryzowane zapytania SQL, rate limiting na logowaniu, sanityzacja HTML przy renderowaniu odpowiedzi (markdown → sanitize → DOM)
-
-## 🚧 Nad czym aktualnie pracuję
-
-Transparentnie — rzeczy, które znam i świadomie planuję poprawić:
-
-- [ ] Wydzielenie wspólnej funkcji do parsowania strumienia SSE (dziś zduplikowana między wysyłaniem wiadomości a regeneracją odpowiedzi)
-- [ ] Middleware `requireAdmin` zamiast powtarzanego sprawdzania `is_admin` w kilku endpointach
-- [ ] Pełne pokrycie testami endpointów auth i CRUD na wątkach
 
 ## 🗂️ Struktura repo
 
